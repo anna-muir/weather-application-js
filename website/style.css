@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    font-family: "lora", sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+    background-color: #5cdb95;
+    color:#05386B;
+    font-weight: 400;
+    
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-headline {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    font-size: 6rem;
+    line-height: 6rem;
+    margin: 1rem;
+    color: #edf5e1;
+    width: 90%;
+    text-align: center;
+}
+
+.entry-box {
+    background: #edf5e1;
+    border:none;
+    height: 4rem;
+    width: 20rem;
+    font-size: 1.3rem;
+    color: #05386B;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    font-family: 'lora';
+    border-radius: 1rem;
+    
+
+}
+
+
+.myInput {
+    background: #edf5e1;
+    border:none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: #05386B;
+    font-family: 'lora';
+    border-radius: 1rem;
+    
+}
+
+#generate {
+    width: 8%;
+    height: 4rem;
+    font-family: "lora";
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border:none;
+    background:#379683;
+    color:#e6e8e6;
+    border-radius: 1rem;
+}
+
+#generate:hover {
+    cursor: pointer;
+    background:#05386B;
+    transition: 200ms ease-in;
+}
+
+
+.zipcode-holder {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    font-family: lora;
+}
+
+.feelings-holder {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    font-family: lora;
+}
+
+::placeholder {
+    font-size: 1.3rem;
+    font-family: "lora";
+
+}
+
+.entry-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    
+
+}
+
+.entry {
+    margin-top: 1.2rem;
+}
+
+.box {
+    opacity: 0;
+}
+.active {
+    transition: 100ms ease-in;
+    opacity: 1;
+    
+}
